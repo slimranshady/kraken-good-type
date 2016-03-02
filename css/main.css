@@ -2,7 +2,8 @@ html {
   box-sizing: border-box;
   vertical-align: middle;
   text-align: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
+  color: #222;
 }
 
 *, *::before, *::after {
@@ -19,7 +20,7 @@ header {
   background-color: #259f95;
   margin: 0;
   padding: 1.5em;
-    border-radius: 0 0 .5em .5em;
+  border-radius: 0 0 .5em .5em;
 }
 
 h1 {
@@ -31,9 +32,9 @@ h1 {
   display: block;
 }
 
-header + p::first-line{
+header + p::first-line {
   font-style: italic;
-  color: #259f95;
+  color: #1e7c74;
 }
 
 article {
