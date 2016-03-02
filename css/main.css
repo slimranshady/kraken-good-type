@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: inline-block;
+  margin: 0;
+}
+
+header {
+  color: #fff;
+  background-color: #259f95;
+  margin: 0;
+  padding: 1.5em;
+    border-radius: 0 0 .5em .5em;
+}
+
+h1 {
+  margin: 0;
+}
+
+.chapter-num {
+  font-style: italic;
+  display: block;
+}
+
+header + p::first-line{
+  font-style: italic;
+  color: #259f95;
+}
+
+article {
+  max-width: 47em;
+  margin: 0 auto;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+  background-color: #259f95;
+  padding: 1.5em;
+  margin: 0;
+  border-radius: .5em .5em 0 0;
+}
+
+.colon {
+  display: none;
+}
